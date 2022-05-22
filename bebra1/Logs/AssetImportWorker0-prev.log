@@ -15,11 +15,11 @@ C:/Users/artur/Documents/GitHub/bebra3.2/bebra1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50806
+61512
 Successfully changed project path to: C:/Users/artur/Documents/GitHub/bebra3.2/bebra1
 C:/Users/artur/Documents/GitHub/bebra3.2/bebra1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Resources/UnitySubsystems
@@ -35,7 +35,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -43,93 +43,93 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.34f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.004199 seconds.
+Registered in 0.003399 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.686 seconds
+- Completed reload, in  0.730 seconds
 Domain Reload Profiling:
-	ReloadAssembly (686ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (525ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (204ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (206ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003586 seconds.
+Registered in 0.004634 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 62.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.311 seconds
+- Completed reload, in  1.262 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1312ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (157ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1060ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1042ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (396ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (416ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.5 MB.
 System memory in use after: 97.4 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2643.
-Total: 4.247200 ms (FindLiveObjects: 0.409000 ms CreateObjectMapping: 0.231800 ms MarkObjects: 3.446400 ms  DeleteObjects: 0.158900 ms)
+Total: 3.003400 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.114200 ms MarkObjects: 2.499100 ms  DeleteObjects: 0.120500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -144,235 +144,218 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Pavement 3.asset
-  artifactKey: Guid(f81fd6bb979863c4fb68c70aee9f77ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Pavement 3.asset using Guid(f81fd6bb979863c4fb68c70aee9f77ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879e2d1bf03ac0623f5939edba7f45ef') in 0.094547 seconds 
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_51.asset
+  artifactKey: Guid(56484953497a5c347af9e9d2d4caa847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_51.asset using Guid(56484953497a5c347af9e9d2d4caa847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c5c89f6f544f0d3d3d4cc236ddbc3f') in 0.094042 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 13.asset
-  artifactKey: Guid(b1537cb59ba0f6d40a042de4ae7efb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 13.asset using Guid(b1537cb59ba0f6d40a042de4ae7efb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447e4ba4790ef70f392a5beaf5597c46') in 0.026583 seconds 
+  Time since last request: 0.000262 seconds.
+  path: Assets/Tiny RPG Forest/Artwork
+  artifactKey: Guid(2997bd1d056ed4d788a6a187a0745a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork using Guid(2997bd1d056ed4d788a6a187a0745a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1d7710a607e72ed475f0a4b2122b74') in 0.008512 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 7.asset
-  artifactKey: Guid(730edbbae4eba4a40a4730dff31a9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 7.asset using Guid(730edbbae4eba4a40a4730dff31a9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff1c7b65430f079324decfc77e37f2b') in 0.017095 seconds 
+  Time since last request: 0.000239 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_53.asset
+  artifactKey: Guid(359f84a00e98e2840b668eae716a7f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_53.asset using Guid(359f84a00e98e2840b668eae716a7f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db3b96a6d42fbb1c052c80890bab41d') in 0.016662 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 15.asset
-  artifactKey: Guid(e9476e15220a42f45af4c24f8a8e59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 15.asset using Guid(e9476e15220a42f45af4c24f8a8e59f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38af6a08dfdd1ff6e9d67b9d719e9dc6') in 0.016518 seconds 
+  Time since last request: 0.000213 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_46.asset
+  artifactKey: Guid(76717ee9840c119428c61af0303831eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_46.asset using Guid(76717ee9840c119428c61af0303831eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b72af0f2f9e0e1c49ebb20534dd7c6d') in 0.017468 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Pavement 4.asset
-  artifactKey: Guid(33ac4fb0956426645a144b2293309f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Pavement 4.asset using Guid(33ac4fb0956426645a144b2293309f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a74ba208a8c50fd2d390965955c82') in 0.013287 seconds 
+  Time since last request: 0.000358 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_58.asset
+  artifactKey: Guid(c03afa280c306134a88234bdaea23232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_58.asset using Guid(c03afa280c306134a88234bdaea23232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904305ba167dfafe87dae77f03a2ec0a') in 0.014507 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 0.asset
-  artifactKey: Guid(c05466c6809543541bddca804b1c7032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 0.asset using Guid(c05466c6809543541bddca804b1c7032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dc4536cb506251ebfe811a274fa72b') in 0.015891 seconds 
+  Time since last request: 0.000213 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_52.asset
+  artifactKey: Guid(96fe6572ff7073b4e950957475db8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_52.asset using Guid(96fe6572ff7073b4e950957475db8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ae731586a17746638e0c34de2ef5be') in 0.016947 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Pavement 6.asset
-  artifactKey: Guid(3c677c9d2363e04478d499e5b34412db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Pavement 6.asset using Guid(3c677c9d2363e04478d499e5b34412db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694700383ecd13d0794499b4cc8fbe42') in 0.018767 seconds 
+  Time since last request: 0.000443 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_50.asset
+  artifactKey: Guid(b4be59137106b4642b484f96c9a539f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_50.asset using Guid(b4be59137106b4642b484f96c9a539f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc35277b91e0e68eef5e371a905e37c') in 0.015199 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 6.asset
-  artifactKey: Guid(4c73f9ff85c705f4d845f23d2e1e52c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 6.asset using Guid(4c73f9ff85c705f4d845f23d2e1e52c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5470365e00bbaccf15ae48967a2373') in 0.015701 seconds 
+  Time since last request: 0.000222 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_63.asset
+  artifactKey: Guid(c1535912f2520d94b9a274d52dbad8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_63.asset using Guid(c1535912f2520d94b9a274d52dbad8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcdd98a4f1de52f10bf095fecb1e7ec') in 0.013595 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 5.asset
-  artifactKey: Guid(50d03a319d913184ca05b05ea532c862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 5.asset using Guid(50d03a319d913184ca05b05ea532c862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b439982075381dcbcd8748cfff4afb1f') in 0.019292 seconds 
+  Time since last request: 0.000176 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_39.asset
+  artifactKey: Guid(505bbbd8cff0e0f40b0a3c4b3d69dd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_39.asset using Guid(505bbbd8cff0e0f40b0a3c4b3d69dd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119ba9768c96f51bf0435a75623caaa8') in 0.016841 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 12.asset
-  artifactKey: Guid(ca0162ba375efae41ac006d614ca60c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 12.asset using Guid(ca0162ba375efae41ac006d614ca60c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177a11c1786c75750c7a105358764e2a') in 0.018109 seconds 
+  Time since last request: 0.000132 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_61.asset
+  artifactKey: Guid(1c066893c979f844eba928e31d8bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_61.asset using Guid(1c066893c979f844eba928e31d8bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01f80a061f7ec17e7b96890a9441266') in 0.015317 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 4.asset
-  artifactKey: Guid(5e0ae2cf497fb7549948a7d8b9e4dbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 4.asset using Guid(5e0ae2cf497fb7549948a7d8b9e4dbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65178e7cfa597cdd760fc723707558bb') in 0.023198 seconds 
+  Time since last request: 0.000222 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_42.asset
+  artifactKey: Guid(3069743e95fddd54c943b91d0f0b4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_42.asset using Guid(3069743e95fddd54c943b91d0f0b4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b549889c71d9202fe0d049d6bec3ca') in 0.011149 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 14.asset
-  artifactKey: Guid(a4edfc2c63e9faa4b92974c94b557b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 14.asset using Guid(a4edfc2c63e9faa4b92974c94b557b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec9cfaea7c476fbc163e93f038d9e4c') in 0.016556 seconds 
+  Time since last request: 0.000230 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass Pavement 7.asset
+  artifactKey: Guid(83017338d1299f645bb84fc1bfdc6c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass Pavement 7.asset using Guid(83017338d1299f645bb84fc1bfdc6c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e496947fa142d11e5055f73ed902a190') in 0.019731 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 11.asset
-  artifactKey: Guid(11416510bc76bb54d8324dd364a4d585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 11.asset using Guid(11416510bc76bb54d8324dd364a4d585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d52ed147526e5ba87c958621dea2fb') in 0.017426 seconds 
+  Time since last request: 0.000374 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_62.asset
+  artifactKey: Guid(889947f2a3144a547b182d05162dfd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_62.asset using Guid(889947f2a3144a547b182d05162dfd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e36ae7ef7d46ba6dfe22098b40d796d') in 0.019156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 3.asset
-  artifactKey: Guid(0c19c4d119fede042994e908e65244da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 3.asset using Guid(0c19c4d119fede042994e908e65244da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a91424c97410272f53906e2f78b3f00') in 0.018666 seconds 
+  Time since last request: 0.000229 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_54.asset
+  artifactKey: Guid(e0745a7c3b2f8574d883376e98a524fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_54.asset using Guid(e0745a7c3b2f8574d883376e98a524fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e90341249ab7c5a446aca52b313b6e8') in 0.013474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 11.asset
-  artifactKey: Guid(b3714f3a5ccc38e4889172900e95a90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 11.asset using Guid(b3714f3a5ccc38e4889172900e95a90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13d300fb2a95566000483c3791b6786') in 0.015146 seconds 
+  Time since last request: 0.000310 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_34.asset
+  artifactKey: Guid(58ebefe99f5f05d4995eca7059d2052c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_34.asset using Guid(58ebefe99f5f05d4995eca7059d2052c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c9fd9ca5d088424a5adaeb2e7f71a6') in 0.011437 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 5.asset
-  artifactKey: Guid(93f08c7c104704647b1318a31dbbac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 5.asset using Guid(93f08c7c104704647b1318a31dbbac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458288cb4140db9ded8798976a640dc1') in 0.021012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 4.asset
-  artifactKey: Guid(07f85f7aca995f749bc4ea565e260ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 4.asset using Guid(07f85f7aca995f749bc4ea565e260ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ea2b67147bdd250e8b1318916ad225') in 0.014757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000946 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 9.asset
-  artifactKey: Guid(3d39fd3740b2cbe40b21814461c0aee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 9.asset using Guid(3d39fd3740b2cbe40b21814461c0aee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a0c1d42b670b4713f661044f07bb12') in 0.014834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 0.asset
-  artifactKey: Guid(d5e2600fe2b01154b90aa8c39b871476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 0.asset using Guid(d5e2600fe2b01154b90aa8c39b871476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b499e654d53b64d46b408910830ba4d3') in 0.014227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 2.asset
-  artifactKey: Guid(337af0dbfd5e9c54c8c4216e3194f424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 2.asset using Guid(337af0dbfd5e9c54c8c4216e3194f424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2829e713a36de751efc2da3b198588') in 0.021520 seconds 
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_47.asset
+  artifactKey: Guid(3134e7f74fb5f8c4992e2c4c77b03579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_47.asset using Guid(3134e7f74fb5f8c4992e2c4c77b03579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843ae36ec4ed4713e72531281a0f9ac1') in 0.019875 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000195 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 14.asset
-  artifactKey: Guid(32c5c8baf97e4fc4a939d60ad9ea8507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 14.asset using Guid(32c5c8baf97e4fc4a939d60ad9ea8507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c38e63c7e419eb2053787f1f16ce030') in 0.017417 seconds 
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_59.asset
+  artifactKey: Guid(48482fc5736f7f14e9603777c11d2071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_59.asset using Guid(48482fc5736f7f14e9603777c11d2071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d972e3180565370a6e9a45b42b3be56') in 0.017788 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 13.asset
-  artifactKey: Guid(e3ea18617e9cf5a41831adbda28a1aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 13.asset using Guid(e3ea18617e9cf5a41831adbda28a1aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ed5627722a9560bf2c6bcbfd97afd1') in 0.029254 seconds 
+  Time since last request: 0.000185 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_43.asset
+  artifactKey: Guid(9ee6bf0ad0b7d4142ac39e154f4286db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_43.asset using Guid(9ee6bf0ad0b7d4142ac39e154f4286db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3037b4cfb472aae8e7dea321bf2f0dd') in 0.014154 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 2.asset
-  artifactKey: Guid(54dbbb3cdd2335b468fddc17c272ed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 2.asset using Guid(54dbbb3cdd2335b468fddc17c272ed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9debed2181a8a6015264886c6740ab34') in 0.019613 seconds 
+  Time since last request: 0.000225 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_60.asset
+  artifactKey: Guid(5553099d75578b84d9ae6afff8b69122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_60.asset using Guid(5553099d75578b84d9ae6afff8b69122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbc5b1ea275c830bb4096961e7ebc73') in 0.016197 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 8.asset
-  artifactKey: Guid(d2e3d93bdc9cbb1468e4a80faae55cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 8.asset using Guid(d2e3d93bdc9cbb1468e4a80faae55cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d95ec1fc2e0577446a5e3d051da4708') in 0.015380 seconds 
+  Time since last request: 0.000313 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_55.asset
+  artifactKey: Guid(a2d026c71e3d3584a830c29808fbcde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_55.asset using Guid(a2d026c71e3d3584a830c29808fbcde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff52ecb3df6c3e985170ac7e81c9c08b') in 0.014916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_35.asset
+  artifactKey: Guid(c06dfd7d1b9db55488c369c7e1c409fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_35.asset using Guid(c06dfd7d1b9db55488c369c7e1c409fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f70d981afa6203d3af3e19a4022fda') in 0.017452 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000188 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 9.asset
-  artifactKey: Guid(de09190344e91f9448fa967945bf3129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 9.asset using Guid(de09190344e91f9448fa967945bf3129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329f8d44671a56c3b1d4a49d98d49c51') in 0.023020 seconds 
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_38.asset
+  artifactKey: Guid(c180c18d59dc40141bc664cddda56abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_38.asset using Guid(c180c18d59dc40141bc664cddda56abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e51145d6e571a82c8e6eabbf97eea0') in 0.011288 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 3.asset
-  artifactKey: Guid(4a091ae9edca3f8409724cf7a0e70a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 3.asset using Guid(4a091ae9edca3f8409724cf7a0e70a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40981b85511b7419a8212a7bd44073ba') in 0.019007 seconds 
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_45.asset
+  artifactKey: Guid(05f5bb7b48328a944a173012f462d471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_45.asset using Guid(05f5bb7b48328a944a173012f462d471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8943344ae8f283bb3ef545c10276d83c') in 0.018770 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 7.asset
-  artifactKey: Guid(de38847d85a836041baa67e8a0dbe9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 7.asset using Guid(de38847d85a836041baa67e8a0dbe9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab07fd1a1f8e98c38cadafe9051e54b') in 0.016436 seconds 
+  Time since last request: 0.000201 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_37.asset
+  artifactKey: Guid(e7e8c664315295240aa51f0146acfe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_37.asset using Guid(e7e8c664315295240aa51f0146acfe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0b4ea91c33f937561f17b9ea1473f0') in 0.011188 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 15.asset
-  artifactKey: Guid(cbb0ef31cd1767248ab8612e9a0e9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 15.asset using Guid(cbb0ef31cd1767248ab8612e9a0e9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c59a4403cfeab3ada43e9fd2fac392') in 0.021286 seconds 
+  Time since last request: 0.000264 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_44.asset
+  artifactKey: Guid(7a44bf49f3a447e4d98b1992735548ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_44.asset using Guid(7a44bf49f3a447e4d98b1992735548ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32944feb236026273429571bf474a058') in 0.012372 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 8.asset
-  artifactKey: Guid(75f5d2bcc38d14e4aa2709af35f1606b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 8.asset using Guid(75f5d2bcc38d14e4aa2709af35f1606b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d8580a6a48a556955d729788358721') in 0.017594 seconds 
+  Time since last request: 0.000354 seconds.
+  path: Assets/Tiny RPG Forest/TX Tileset Grass_36.asset
+  artifactKey: Guid(dd7d58825bd252c42ad5e57efd4c5420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/TX Tileset Grass_36.asset using Guid(dd7d58825bd252c42ad5e57efd4c5420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7621fe6182f003caa32306ced303fec9') in 0.015522 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 12.asset
-  artifactKey: Guid(d690081997aa63d4d93d4681ed34fb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 12.asset using Guid(d690081997aa63d4d93d4681ed34fb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b306ebb56d61dc4503a0e6baa3164b69') in 0.017390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 1.asset
-  artifactKey: Guid(0fa5544ba7aeb3c41a72b377e52ad92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 1.asset using Guid(0fa5544ba7aeb3c41a72b377e52ad92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe09413461cd32629cd0fd717d21cbd1') in 0.017925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass 10.asset
-  artifactKey: Guid(d3773da90169fab46bff3611baf2bce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass 10.asset using Guid(d3773da90169fab46bff3611baf2bce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a7197dee3c8f7046a96de03417c5c') in 0.022780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000537 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 1.asset
-  artifactKey: Guid(8d0c4567a5f78d64391221d64832f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 1.asset using Guid(8d0c4567a5f78d64391221d64832f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509cb7f70de0a8e845cbb3382e3ff69d') in 0.014104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 6.asset
-  artifactKey: Guid(ac82e594f8c46194ca0e83fa45ad9064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 6.asset using Guid(ac82e594f8c46194ca0e83fa45ad9064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6baaa9ecf2c9a616115d4393457a5ea') in 0.016441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Pavement 2.asset
-  artifactKey: Guid(ace050e95b10c3e42b6abf8d3bb67c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Pavement 2.asset using Guid(ace050e95b10c3e42b6abf8d3bb67c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c234d737c79727c2c102980d0cbd9a2c') in 0.018301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Flower 10.asset
-  artifactKey: Guid(6ac3711d613d5fc4d894f06bf95d20ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Flower 10.asset using Guid(6ac3711d613d5fc4d894f06bf95d20ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a0173000fb749206a5b7c535243a28') in 0.019782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Pavement 0.asset
-  artifactKey: Guid(e18e4e9073ab0ff4dbee3fa38ce87b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Pavement 0.asset using Guid(e18e4e9073ab0ff4dbee3fa38ce87b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e33bc5d6041f2fbf54974cdd537491d') in 0.017639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Pavement 5.asset
-  artifactKey: Guid(13bd0b705d776b14e85645d6ac1206be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Pavement 5.asset using Guid(13bd0b705d776b14e85645d6ac1206be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bec0d46c4debedc85959c13bf06ebb') in 0.015701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Tiny RPG Forest/TX Tileset Grass Pavement 1.asset
-  artifactKey: Guid(9ac64d6fef1405a429e2c0a6cd17a913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/TX Tileset Grass Pavement 1.asset using Guid(9ac64d6fef1405a429e2c0a6cd17a913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b485fa31176a2b4bc44a2e37ec9ad33') in 0.015430 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2205 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2650.
+Total: 3.168600 ms (FindLiveObjects: 0.155600 ms CreateObjectMapping: 0.075100 ms MarkObjects: 2.833600 ms  DeleteObjects: 0.103200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
